@@ -7,7 +7,7 @@
 - 기술: Vite + React + TypeScript + React Three Fiber(three.js) + drei + Rapier 물리 + zustand
 - 실시간: Supabase Realtime (Broadcast + Presence, **DB는 사용하지 않음**)
 - 배포: Vercel (정적 사이트, 별도 서버 없음)
-- 모든 건물·나무·아바타는 코드로 만든 도형 + 캔버스 텍스처입니다. (외부 3D 모델 파일 없음)
+- 모든 건물·나무·아바타는 코드로 만든 도형 + 캔버스 텍스처입니다. (외부 3D 모델 파일 없음) 
 
 ---
 
