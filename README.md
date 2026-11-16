@@ -156,5 +156,5 @@ src/
   golf/       파크골프 미니게임 (지연 로딩)
   xmas/       크리스마스 장식·눈·bloom (지연 로딩)
   ui/         입장 화면, HUD, 패널
-reference/    참고 사진 (정문, 본관)
+reference/    참고 사진 (정문, 본관) 
 ```
