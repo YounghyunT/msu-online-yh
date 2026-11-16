@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#3b6fd8" />
+    <title>온라인 목포과학대학교</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏫</text></svg>" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+    <style>
+      html, body, #root { margin: 0; height: 100%; overflow: hidden; background: #cfe4ff; }
+      #boot { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px;
+        font-family: 'Pretendard Variable', system-ui, sans-serif; color: #24324a; background: linear-gradient(#8ec5ff, #e8f3ff); }
+      #boot .bar { width: 240px; height: 8px; border-radius: 8px; background: rgba(255,255,255,.6); overflow: hidden; }
+      #boot .bar i { display: block; height: 100%; width: 30%; border-radius: 8px; background: #3b6fd8; animation: boot 1.2s ease-in-out infinite; }
+      @keyframes boot { 0% { transform: translateX(-100%); } 100% { transform: translateX(330%); } }
+    </style>
+  </head>
+  <body>
+    <div id="root"><div id="boot"><div style="font-size:20px;font-weight:700">🏫 온라인 목포과학대학교로 가는 중…</div><div class="bar"><i></i></div></div></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
